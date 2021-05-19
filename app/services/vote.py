@@ -12,6 +12,9 @@ class VoteService:
         if not data['event'].get('item_user'):
             return True
 
+        if data['event'].get('user') == data['event'].get('item_user'):
+            return True
+
         if data['event'].get('reaction') not in ALLOWED_EMOJIS:
             return True
 
