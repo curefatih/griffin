@@ -1,0 +1,4 @@
+Haftanın En Çok Puan Alan Kullanıcıları
+{% for i in result %}
+    @{{ i['rateder'] }} ({{ i['toplamOy'] }}): :{{ i['oy1_tip'] }}: ({{ i['oy1_sayi'] }}), :{{ i['oy2_tip'] }}: ({{ i['oy2_sayi'] }}), :{{ i['oy3_tip'] }}: ({{ i['oy3_sayi'] }})
+{% endfor %}
