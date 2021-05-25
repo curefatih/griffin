@@ -16,4 +16,4 @@ Griffin is an application that collects certain emojis in Slack applications.
 
 Instructions Will Be Added...
 
-[A Demongo Based Project.](https://github.com/emregeldegul/demongo)
+[A Demongo Based Project.](https://github.com/emregeldegul/demongo) Special Thanks [Furkan Karaçalı](https://www.linkedin.com/in/furkankrcl/) 
