@@ -11,7 +11,7 @@ with eventCnt(rateder , event , cnt, rn) as
 					count(1) over(partition by rateder, event) cnt
 				from reaction
 				where 1=1
-					--and datetime(event_datetime) between DATETIME('now', '-7 day') and DATETIME('now')
+					and datetime(event_datetime) between DATETIME('now', '-7 day') and DATETIME('now')
 			)
 	)
     select
@@ -34,7 +34,7 @@ from
 			count(1) toplamOy
 		from reaction r
 		where 1=1
-			--and datetime(event_datetime) between DATETIME('now', '-7 day') and DATETIME('now')
+			and datetime(event_datetime) between DATETIME('now', '-7 day') and DATETIME('now')
 		group by rateder
 		order by count(1) desc
 		limit 5
