@@ -1,5 +1,5 @@
 # Griffin
-Griffin is an application that collects certain emojis in Slack applications.
+You can collect certain emojis in Slack applications with Griffin
 
 ## Setup
 
